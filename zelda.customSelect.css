@@ -1,3 +1,20 @@
+.mast__bg {
+  background: url('./cat.jpg') no-repeat;
+  background-size: cover;
+}
+
+.mast__bg::before {
+  content: ' ';
+  background: #000;
+  opacity: .6;
+  display: block;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
 .wrapper-select {
   position: relative;
   width: 100%;
