@@ -1,0 +1,22 @@
+{
+  "name": "zeldascustomselect",
+  "version": "1.0.0",
+  "description": "jQuery plugin to create Custom Select with input type radio",
+  "main": "zelda.customSelect.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rebecagrn/zeldaCustomSelect.git"
+  },
+  "keywords": [
+    "jquery-plugin"
+  ],
+  "author": "Rebeca G. Pacheco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rebecagrn/zeldaCustomSelect/issues"
+  },
+  "homepage": "https://github.com/rebecagrn/zeldaCustomSelect#readme"
+}

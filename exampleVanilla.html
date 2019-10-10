@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Example Vanilla</title>
+    <link rel="stylesheet" href="zelda.customSelect.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        main {
+            display: flex;
+            width: 600px;
+            margin: 0 auto;
+            flex-direction: column;
+        }
+
+        #mySelectVanilla {
+            border: 1px solid rgb(206, 206, 206);
+            color: rgb(255, 255, 255);
+            background: linear-gradient(to right, rgb(15, 12, 41), rgb(48, 43, 99), rgb(36, 36, 62));
+            width: 100%;
+        }
+
+        .select__opcoes.open {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Vanilla Version (Under construction)</h1>
+        <div class="mySelectVanilla"></div>
+        <div class="mySelectVanilla2"></div>
+        <div class="mySelectVanilla3"></div>
+    </main>
+</body>
+
+<script src="zelda.customSelect.vanilla.js"></script>
+
+<script>
+    var select1 = new zeldaCustomSelect('.mySelectVanilla', {
+        list: ['Cod', 'Categoria', 'Produto', 'Preço', 'Status'],
+        defaultOption: 'Filtrar por:'
+    });
+    var select2 = new zeldaCustomSelect('.mySelectVanilla2', {
+        list: ['Branco', 'Azul', 'Verde'],
+        defaultOption: 'Selecione a cor:'
+    });
+    var ss = new zeldaCustomSelect('.mySelectVanilla3');
+</script>
+
+</html>
